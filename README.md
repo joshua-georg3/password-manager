@@ -1,15 +1,15 @@
-# Secure & encrypted password manager
+# Secure & Encrypted Password Manager
 
-Most advanced project yet
+## Most advanced project yet
 
 
-set username and password on your pc by pasting this on your command prompt:
+#### set username and password on your pc by pasting this on your command prompt:
 
-python
-import keyring
-keyring.set_password(service_name="password_manager", username="______", password="_____")
-x = keyring.get_credential(service_name="password_manager", username=None)
+#### python
+#### import keyring
+#### keyring.set_password(service_name="password_manager", username="______", password="_____")
+#### x = keyring.get_credential(service_name="password_manager", username=None)
 
 if you dont have keyring - 'pip install keyring' in terminal
 
-copy rest of the code the same. Have fun!
+Copy the rest of the code the same. Have fun!
